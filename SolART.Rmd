@@ -1,0 +1,73 @@
+---
+title: "Hackletes"
+output: html_document
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(shiny)
+library(tidyverse)
+library(shinythemes)
+library(ggplot2)
+library(gganimate)
+```
+
+## SolART         
+
+```{r}
+# Define UI for application
+ui <- fluidPage(
+  
+  # Dark theme for app
+  theme = shinytheme("cyborg"),
+
+    # Application title
+    titlePanel("SolART"),
+
+    # Top bar with options for art style and sound 
+    sidebarLayout(
+        fluidRow(
+          # Selection of art style
+          column(width = 6,
+                 radioButtons("style",
+                              "Art Style:",
+                              choices = c("Abstract",
+                                          "Microscope",
+                                          "Texture"))),
+          # Selection of baseline for pitch/tone
+          column(width = 6,
+                 checkboxInput("sound", "Play Sound:"),
+                 sliderInput("pitch",
+                        "Baseline pitch:",
+                        min = 1,
+                        max = 50,
+                        value = 30))
+            
+        ),
+
+        # Show a plot of the generated images
+        mainPanel(
+           plotOutput("solart")
+        )
+    )
+)
+
+# Define server logic required to draw a histogram
+server <- function(input, output) {
+
+    output$solart <- renderPlot({
+        #run some sort of python code chunk through here
+    })
+}
+
+# Run the application 
+shinyApp(ui = ui, server = server)
+```
+  
+  
+  
+```{python}
+# Put refined code from the Google Colab here!
+```
+

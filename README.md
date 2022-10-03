@@ -21,7 +21,8 @@ While our app was unable to be completed within the allotted time, our team had 
 [PyAudio Dev](https://colab.research.google.com/drive/1wLiyhLMo6tHTca8TyF08iM3y-UCl6QVt?usp=sharing) - Google Colab for getting solar synth up and running  
 [LSD Dev](https://colab.research.google.com/drive/1V_eXpmvlzA7SavDRH6GmjAbXcvSPJ74i#scrollTo=g3min72ByoGD) - Google Golab for getting GAN visualization up and running
 
-## The Team  
+
+## The Hackletes  
 [**Brianna Bristow**](https://scholar.google.com/citations?user=QIQhgnUAAAAJ&hl=en) - Master's Student at the University of British Columbia studying cells and circuits in memory. Her expertise lies in biochemistry and she mainly utilizes R for the analysis of microscopy data.  
   
 [**Derek Merryweather, _MSc._**](https://twitter.com/dmerryweather21) - PhD Student in Neuroscience at the University of British Columbia studying brain circuits involved in memory. He underwent his Master's degree in Biology at New York University, wherein his thesis focussed upon the effects of cocaine use on the straital system. His primary coding language is in R for analysis of electrical recordings of neuronal activity.  

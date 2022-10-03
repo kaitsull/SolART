@@ -17,6 +17,10 @@ We added in a further toggle-able audio option for sonification of the data usin
   
 While our app was unable to be completed within the allotted time, our team had a lot of fun brainstorming and beginning the creation of this application. As such, will continue to develop it despite the end of the Hackathon drawing near! Stay tuned to see the finished product!   
 
+## Development  
+[PyAudio Dev](https://colab.research.google.com/drive/1wLiyhLMo6tHTca8TyF08iM3y-UCl6QVt?usp=sharing) - Google Colab for getting solar synth up and running  
+[LSD Dev](https://colab.research.google.com/drive/1V_eXpmvlzA7SavDRH6GmjAbXcvSPJ74i#scrollTo=g3min72ByoGD) - Google Golab for getting GAN visualization up and running
+
 ## The Team  
 [**Brianna Bristow**](https://scholar.google.com/citations?user=QIQhgnUAAAAJ&hl=en) - Master's Student at the University of British Columbia studying cells and circuits in memory. Her expertise lies in biochemistry and she mainly utilizes R for the analysis of microscopy data.  
   
